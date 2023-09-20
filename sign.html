@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>
+Classroom
+</title>
+<style>
+    body
+    {
+      <!--
+      background-image:url('https://gifdb.com/images/high/starfield-dark-background-sgli8iwvguwxzovr.webp');
+  -->
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color:white;
+    }
+    #a
+    {
+       font-family:arial;
+       font-weight:bold;
+       font-size:30px;
+       padding-bottom: 0px;
+       margin-bottom:10=5px;
+       color:black;
+    }
+    .d
+    {
+        border:1px solid green;
+        width: 350px;
+        text-align: center;
+        background-color: F7F7F7;
+        border-radius: 15px;
+        padding-bottom: 18px;
+    }
+    .a
+    {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 50px;
+        padding-left: 30;
+        margin-bottom: 25px;
+    }
+    .b
+    {
+        padding-right: 100px;
+        padding-left:100px;
+        padding-top:13px;
+        padding-bottom: 13px;
+        background-color:green;
+        color:white;
+    }
+    .e
+    {
+        margin-top: 15%;
+        margin-bottom:15px;
+    }
+    #b
+     {
+       font-family: sans-serif;
+       font-size:italic;
+     }
+     .c
+     {
+       font-family: sans-serif;
+        
+     }
+     span
+     {
+        color:blue;  
+     }
+     .b:hover
+     {
+        cursor:pointer;
+        opacity:background-color 2s;
+     }
+</style>
+</head>
+<body>
+    <form method="POST">
+<center class='e'>
+<div class='d'>
+<h3 id='a'>SIGN IN</h3>
+<input type="name" class='a' id='name'placeholder="Username"name="username" required>
+<br>
+<input type="number" class='a' id='pass'placeholder="Password"name="password" required>
+<br>
+<input type="number" class='a' id='pass1'placeholder="Re-Enter Password"name="password11" required>
+<input class='b'type="submit"value="SIGN IN" required>
+<p class='c'>If you want to log in then <a href="login.html"style="text-decoration:none;"><span>Click Here</span></a></p>
+</div>
+</center>
+</form>
+<script>
+ function fun()
+{
+    let a=document.getElementById('pass').value;
+    let b=document.getElementById('pass1').value;
+    if(a!=b)
+    {
+        alert('The password not match');
+    }
+    else
+    {
+        document.location='mainpage.html'
+    }
+}
+</script>
+</body>
+</html>
